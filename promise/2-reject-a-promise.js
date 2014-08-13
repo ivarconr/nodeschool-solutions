@@ -1,7 +1,7 @@
 var q = require('q');
 var defer = q.defer();
 
-defer.promise.then(function() {}, function(e) {
+defer.promise.then(nulls, function(e) {
   console.log(e.message);
 }); 
 
